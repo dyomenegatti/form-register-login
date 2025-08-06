@@ -1,0 +1,46 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.label {
+  margin-bottom: 4px;
+  font-weight: bold;
+  color: #3f3f3f;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 6px;
+  border: 2px solid #3f3f3f;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.icon {
+  margin-right: 8px;
+  color: #3f3f3f;
+}
+
+.input, textarea, select {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #3f3f3f;
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+.counter {
+  font-size: 0.8rem;
+  text-align: right;
+  color: #999;
+  margin-top: 4px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}

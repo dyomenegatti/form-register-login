@@ -1,0 +1,24 @@
+.login-container {
+  display: flex;
+  gap: 8px;
+}
+
+.login-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;  
+}
+
+.login-message {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.login-message.trouble {
+  font-weight: 500;
+}
+
+.login-message.trouble:hover {
+  color: rgb(14, 14, 179);
+  cursor: pointer;
+}
